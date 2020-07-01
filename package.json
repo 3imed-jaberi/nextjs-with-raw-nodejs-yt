@@ -1,0 +1,37 @@
+{
+  "name": "nextjs-with-raw-nodejs",
+  "version": "1.0.0",
+  "description": "use raw Node.js as custom server for Next.js.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "cross-env NODE_ENV=production node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3imed-jaberi/nextjs-with-raw-nodejs.git"
+  },
+  "keywords": [
+    "ssr",
+    "raw-nodejs",
+    "nextjs"
+  ],
+  "author": "Imed Jaberi (https://www.3imed-jaberi.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^9.4.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2"
+  },
+  "engines": {
+    "node": ">= 10.13"
+  },
+  "bugs": {
+    "url": "https://github.com/3imed-jaberi/nextjs-with-raw-nodejs/issues"
+  },
+  "homepage": "https://github.com/3imed-jaberi/nextjs-with-raw-nodejs#readme"
+}
