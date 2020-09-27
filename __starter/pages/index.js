@@ -4,7 +4,7 @@ function HomePage() {
   return (
     <div 
       style={{ 
-        margin: auto;
+        margin: "auto";
         width: "50%"
       }}
     >
