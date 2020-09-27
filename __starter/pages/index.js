@@ -2,11 +2,16 @@
 
 function HomePage() {
   return (
-    <center>
+    <div 
+      style={{ 
+        margin: auto;
+        width: "50%"
+      }}
+    >
       <h1>
         Hello World 👋
       </h1>
-    </center>
+    </div>
   )
 }
 
